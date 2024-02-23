@@ -1,5 +1,7 @@
 # Notion Markdown to Word
 
+<p><img src="docs/logo/logo.svg" alt="logo" style="display: block; margin: auto;"></p>
+
 > __⭐️ Shell script that transforms Notion Markdown files to Word files in macOS.__
 
 This is very convenient if you ever need to export a Notion page to a Microsoft Word file for some reason.
