@@ -1,6 +1,8 @@
 # Notion Markdown to Word
 
-<p><img src="docs/logo/logo.svg" alt="logo" style="display: block; margin: auto;"></p>
+<p align="center">
+   <img src="docs/logo/logo.svg" alt="logo">
+</p>
 
 > __⭐️ Shell script that transforms Notion Markdown files to Word files in macOS.__
 
