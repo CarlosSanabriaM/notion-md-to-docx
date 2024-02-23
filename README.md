@@ -11,6 +11,12 @@ Install [pandoc](https://pandoc.org/):
 brew install pandoc
 ```
 
+Install [librsvg](https://wiki.gnome.org/Projects/LibRsvg) if you plan to use SVG images in your Notion page
+(its rsvg-convert covers formats without SVG support):
+```shell
+brew install librsvg
+```
+
 ## Usage
 
 1. Go to your Notion page and export it in Markdown format  
