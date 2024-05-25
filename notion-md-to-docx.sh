@@ -9,6 +9,9 @@ echo "File to unzip: $latestModifiedZipFile"
 
 # Unzip the file contents inside a directory and remove the zip file
 outputDir="notion-export-content"
+echo "Clean up previous export directory: $outputDir"
+rm -rf "$outputDir"
+mkdir "$outputDir"
 echo "Unzip file contents inside $outputDir"
 unzip -o "$latestModifiedZipFile" -d "$outputDir"
 echo "Remove zip file $latestModifiedZipFile"
